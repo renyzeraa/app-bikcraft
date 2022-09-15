@@ -29,3 +29,64 @@
   --ff-poppins: 'Poppins', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
 }
+
+.w {
+  color: var(--w);
+}
+.c1 {
+  color: var(--c1);
+}
+.c2 {
+  color: var(--c2);
+}
+.c3 {
+  color: var(--c3);
+}
+.c4 {
+  color: var(--c4);
+}
+.c5 {
+  color: var(--c5);
+}
+.c6 {
+  color: var(--c6);
+}
+.c7 {
+  color: var(--c7);
+}
+.c8 {
+  color: var(--c8);
+}
+.c9 {
+  color: var(--c9);
+}
+.c10 {
+  color: var(--c10);
+}
+.c11 {
+  color: var(--c11);
+}
+.c12 {
+  color: var(--c12);
+}
+.p5 {
+  --p5: #332200;
+}
+.p4 {
+  --p4: #664400;
+}
+.p3 {
+  --p3: #a66f00;
+}
+.p2 {
+  --p2: #e4a30b;
+}
+.p1 {
+  --p1: #ffbb00;
+}
+.ff-poppins {
+  font-family: var(--ff-poppins);
+}
+.ff-roboto {
+  font-family: var(--ff-roboto);
+}
