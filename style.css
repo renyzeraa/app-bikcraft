@@ -52,6 +52,7 @@ img {
 
 main {
   background-color: var(--w);
+  padding-bottom: 300px;
 }
 
 .intro-title {
@@ -143,8 +144,8 @@ header {
 
 #home {
   background-color: var(--c12);
+  box-shadow: inset 0 -60px #fff;
 }
-
 .home-text-area {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -156,7 +157,6 @@ header {
   margin: 0 auto;
   padding: 0 2.4rem;
 }
-
 #home .intro-title {
   font-size: 5.6rem;
   margin-bottom: 3.2rem;
@@ -164,17 +164,13 @@ header {
 .home-text-area div:first-child {
   align-self: end;
   gap: 30px;
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
 }
-
-.home-img {
-  margin-bottom: -6rem;
-}
-
-.home-img img {
+.home-text-area img {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+  border-radius: 3px;
 }
 .home-text {
   margin-bottom: 3.2rem;
@@ -203,4 +199,31 @@ header {
   box-shadow: 0px 0px 12px 0px rgb(255 255 255 / 48%);
   transition: 0.5s;
   filter: brightness(0.9);
+}
+
+@media (max-width: 710px) {
+  #home {
+    background-color: var(--c11);
+  }
+
+  #home .intro-title {
+    font-size: 4rem;
+    line-height: 3.8rem;
+  }
+  .home-text {
+    font-size: 2rem;
+  }
+
+  .home-text-area {
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home-text-area img {
+    display: none;
+  }
+
+  .home-btn {
+    padding: 1.2rem 2.4rem;
+  }
 }
