@@ -42,11 +42,27 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+main {
+  background-color: var(--w);
+}
+
+.intro-title {
+  font-family: var(--ff-poppins);
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.2rem;
+}
+
+.intro-title span {
+  color: var(--p1);
 }
 
 /* header */
@@ -64,7 +80,7 @@ header {
   padding: 2.4rem;
   max-width: 1120px;
   align-items: center;
-  margin: 0 auto 500px;
+  margin: 0 auto;
 }
 
 .header-menu {
@@ -121,4 +137,70 @@ header {
     font-size: 1.3rem;
     padding: 0.8rem;
   }
+}
+
+/* introdução */
+
+#home {
+  background-color: var(--c12);
+}
+
+.home-text-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 4rem;
+  color: var(--w);
+  align-items: center;
+  justify-items: left;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+#home .intro-title {
+  font-size: 5.6rem;
+  margin-bottom: 3.2rem;
+}
+.home-text-area div:first-child {
+  align-self: end;
+  gap: 30px;
+  margin-bottom: 8rem;
+}
+
+.home-img {
+  margin-bottom: -6rem;
+}
+
+.home-img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.home-text {
+  margin-bottom: 3.2rem;
+  font-family: var(--ff-roboto);
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--c5);
+}
+.home-btn {
+  background: linear-gradient(#ffbf00, #f2a50c);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--p5);
+
+  padding: 1.6rem 3.2rem;
+  border-radius: 5px;
+  display: inline-block;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+.home-btn:hover {
+  box-shadow: 0px 0px 12px 0px rgb(255 255 255 / 48%);
+  transition: 0.5s;
+  filter: brightness(0.9);
 }
