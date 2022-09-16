@@ -97,6 +97,10 @@
   font-family: var(--ff-meri);
 }
 
+.bg-c10 {
+  background-color: var(--c10) !important;
+}
+
 .bg-c11 {
   background-color: var(--c11) !important;
 }
