@@ -28,6 +28,7 @@
 
   --ff-poppins: 'Poppins', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
+  --ff-meri: 'Merriweather', serif;
 }
 
 .w {
@@ -69,26 +70,31 @@
 .c12 {
   color: var(--c12);
 }
-.p5 {
-  --p5: #332200;
+
+.c-p5 {
+  color: var(--p5);
 }
-.p4 {
-  --p4: #664400;
+.c-p4 {
+  color: var(--p4);
 }
-.p3 {
-  --p3: #a66f00;
+.c-p3 {
+  color: var(--p3);
 }
-.p2 {
-  --p2: #e4a30b;
+.c-p2 {
+  color: var(--p2);
 }
-.p1 {
-  --p1: #ffbb00;
+.c-p1 {
+  color: var(--p1);
 }
 .ff-poppins {
   font-family: var(--ff-poppins);
 }
 .ff-roboto {
   font-family: var(--ff-roboto);
+}
+
+.ff-meri {
+  font-family: var(--ff-meri);
 }
 
 .bg-c11 {
