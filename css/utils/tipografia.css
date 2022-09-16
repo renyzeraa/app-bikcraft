@@ -90,3 +90,15 @@
 .ff-roboto {
   font-family: var(--ff-roboto);
 }
+
+.bg-c11 {
+  background-color: var(--c11) !important;
+}
+
+.bg-c12 {
+  background-color: var(--c12) !important;
+}
+
+.bg-p1 {
+  background-color: var(--p1);
+}

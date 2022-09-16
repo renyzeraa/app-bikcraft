@@ -8,10 +8,8 @@ header {
   flex-wrap: wrap;
   gap: 20px 0;
   justify-content: space-between;
-  padding: 2.4rem;
-  max-width: 1120px;
+  padding: 2.4rem !important;
   align-items: center;
-  margin: 0 auto;
 }
 
 .header-menu {

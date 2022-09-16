@@ -9,9 +9,6 @@
   color: var(--w);
   align-items: center;
   justify-items: left;
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 2.4rem;
 }
 #home .intro-title {
   font-size: 5.6rem;

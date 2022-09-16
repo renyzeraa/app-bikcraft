@@ -1,6 +1,4 @@
 .modelos {
-  max-width: 1120px;
-  margin: 0 auto;
   padding: 12rem 2.4rem;
   display: grid;
   height: 100%;
@@ -64,11 +62,15 @@
   }
 }
 
-@media (max-width: 600px) {
-  .modelos .bike-list {
-    flex-wrap: wrap;
+@media (max-width: 650px) {
+  .modelos .bike-list img {
+    height: unset;
+    width: unset;
   }
-  .bike-list img {
-    height: 30rem;
+  .modelos .bike-list li {
+    min-width: 300px;
+  }
+  .modelos .bike-list {
+    overflow-x: auto;
   }
 }
