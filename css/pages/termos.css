@@ -1,0 +1,45 @@
+.titulo-container {
+  padding: 6rem 2.4rem !important;
+}
+
+.termos {
+  padding: 12rem 2.4rem !important;
+}
+
+.termos p {
+  font-family: var(--ff-roboto);
+  max-width: 60rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--c10);
+}
+
+.termos p {
+  margin-bottom: 2rem;
+}
+
+p + .termos-title {
+  margin-top: 4.8rem;
+}
+.termos-title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 560px) {
+  .termos {
+    padding: 6rem 2.4rem !important;
+  }
+  .titulo-container .intro-title {
+    font-size: 4.4rem;
+    line-height: 5.2rem;
+  }
+  .termos-title {
+    font-size: 2.2rem;
+  }
+  .termos p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}

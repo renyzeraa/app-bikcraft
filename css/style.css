@@ -13,3 +13,7 @@
 @import './home/parceiros.css';
 @import './home/depoimentos.css';
 @import './home/seguros.css';
+
+/* pages */
+@import './pages/termos.css';
+@import './pages/contato.css';
