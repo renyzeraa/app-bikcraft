@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -21,56 +26,82 @@
       </ul>
     </div>
   </header>
-
-
-
   <main>
-    <div class="titulo-bg bg-c11">
+    <div class="titulo-bg ">
       <div class="container titulo-container">
         <span class="about-intro c5 ff-roboto">respostas em até 24h</span>
         <h1 class="intro-title w">nosso contato<span>.</span></h1>
       </div>
-
-      <div class="container">
-        <div class="contato-container">
-          <span>Loja Online</span>
-          <ul class="endereco">
+      <div class="container contato-bg">
+        <div class="contatos bg-c12">
+          <span class="ff-poppins w">Loja Online</span>
+          <ul class="endereco c4 ff-roboto">
             <li>Rua Ali Perto, 35</li>
             <li>Rio de Janeiro - RJ</li>
             <li>Brasil - Terra - Vita Láctea</li>
           </ul>
-          <ul class="emails">
+          <ul class="emails c4 ff-roboto">
             <li>vendas@bikcraft.com</li>
             <li>assistencia@bikcraft.com</li>
           </ul>
-          <ul class="number">
+          <ul class="number c4 ff-roboto">
             <li>+55 21 9999-9999</li>
           </ul>
-          <ul>
+          <ul class="redes-sociais">
             <li><a href="https://www.instagram.com" target="_blank"><img src="../img/redes/instagram-p.svg" alt=""></a></li>
             <li><a href="https://www.facebook.com" target="_blank"><img src="../img/redes/facebook-p.svg" alt=""></a></li>
             <li><a href="https://www.youtube.com" target="_blank"><img src="../img/redes/youtube-p.svg" alt=""></a></li>
           </ul>
-          <img src="../img/dec/bottom-left.svg" alt="details">
+          <img class="details" src="../img/dec/bottom-left.svg" alt="details">
         </div>
-        <div>
+        <div class="formulario ">
           <form action="" method="post">
-
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" placeholder="(21)9999-9999" required>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="contato@email.com">
+            <label for="textarea">Mensagem</label>
+            <textarea name="textarea" id="textarea" placeholder="O que você precisa?" cols="30" rows="10"></textarea>
+            <input class="btn" type="submit" value="enviar mensagem">
           </form>
         </div>
-        <div>
-
+      </div>
+    </div>
+    <div class="container locais-bg">
+      <h1 class="intro-title c11">lojas locais<span>.</span></h1>
+      <div class="cidade">
+        <img src="../img/lojas/rj.jpg" alt="local rj">
+        <div class="cidade-dados">
+          <h1 class="ff-poppins">Rio de Janeiro</h1>
+          <ul class="lista-dados ff-roboto c8">
+            <li>Rua Ali Perto, 25</li>
+            <li>Rio de Janeiro - RJ</li>
+            <li> rio@bikcraft.com</li>
+            <li>21 9999-9999</li>
+          </ul>
+          <span class="horario c12 ff-poppins">08-18h de seg à dom</span>
         </div>
+      </div>
+      <div class="cidade">
+        <img src="../img/lojas/sp.jpg" alt="local sp">
+        <div class="cidade-dados">
+          <h1 class="ff-poppins">São Paulo</h1>
+          <ul class="lista-dados ff-roboto c8">
+            <li>Rua Ali Perto, 25</li>
+            <li>São Paulo - SP</li>
+            <li>sp@bikcraft.com</li>
+            <li>11 9999-9999</li>
+          </ul>
+          <span class="horario c12 ff-poppins">08-18h de seg à dom</span>
+        </div>
+
       </div>
     </div>
 
 
-
   </main>
-
-
-
-
 
   <footer class="bg-c12 ">
     <div class="footer container">
@@ -102,3 +133,5 @@
     </div>
   </footer>
 </body>
+
+</html>
