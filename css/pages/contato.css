@@ -1,0 +1,7 @@
+.contato-page main {
+  height: 100%;
+}
+
+.contato-page .titulo-container {
+  box-shadow: 0px 240px 0 0rem var(--c11);
+}
