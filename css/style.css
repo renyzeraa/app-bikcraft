@@ -19,3 +19,240 @@
 @import './pages/contato.css';
 @import './pages/bicicletas.css';
 @import './pages/seguros.css';
+
+.bike-bg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+  gap: 4rem;
+  align-items: start;
+  padding-bottom: 6rem;
+}
+
+.bike-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.bike-images img {
+  border-radius: 5px;
+}
+
+.bike-images img:first-child {
+  grid-column: 1/-1;
+}
+
+.bike-about {
+  font-family: var(--ff-roboto);
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--c6);
+  margin-bottom: 3.2rem;
+}
+
+.campo-compra {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 4rem;
+}
+
+.dados {
+  display: grid;
+  align-content: space-between;
+}
+
+.dados span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  background-color: var(--c12);
+  padding: 4px 8px;
+  color: var(--c6);
+  font-family: var(--ff-roboto);
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: max-content;
+}
+
+.title-conteudo {
+  color: var(--w);
+  font-family: var(--ff-poppins);
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+
+.content-bg {
+  display: grid;
+  padding: 3rem;
+  background-color: var(--c12);
+  border-radius: 5px;
+}
+
+.beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.beneficios ul {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.beneficios ul img {
+  width: 24px;
+  height: 24px;
+}
+.beneficios ul h3 {
+  font-family: var(--ff-poppins);
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: var(--w);
+}
+.beneficios ul p {
+  font-family: var(--ff-roboto);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--c5);
+}
+
+.especificacoes ul {
+  display: grid;
+  gap: 0.2rem;
+}
+.bike-bg .especificacoes ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--c11);
+
+  color: var(--c4);
+  font-family: var(--ff-roboto);
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.bike-bg .especificacoes ul li:last-child {
+  border: none;
+}
+
+.especificacoes li span {
+  color: var(--c7);
+}
+
+.tipos-bg {
+  padding: 6rem 2.4rem !important;
+}
+
+.tipos-bg .intro-title {
+  margin-bottom: 4rem;
+}
+
+.tipos-bg .bike-list {
+  display: flex;
+  gap: 4rem;
+}
+
+.tipos-bg .bike-list img {
+  height: auto;
+  border-radius: 5px;
+}
+
+.bike-cosmic .seguros {
+  box-shadow: inset 0px 60px white, inset 0px -60px var(--c12);
+}
+
+.seguro-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.seguro-bg img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.seguro-bg .seguros-content {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+}
+
+.seguro-bg .intro-title {
+  width: 16ch;
+  font-weight: 600;
+  font-size: 4.4rem;
+  line-height: 4.6rem;
+}
+
+.seguros-content p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  width: 32ch;
+}
+
+@media (max-width: 800px) {
+  .tipos-bg .bike-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .seguro-bg img {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .seguro-bg {
+    grid-template-columns: 1fr;
+  }
+
+  .seguro-bg .intro-title {
+    width: auto;
+    font-size: 3.4rem;
+    line-height: 3.6rem;
+  }
+  .seguros-content p {
+    width: auto;
+  }
+}
+
+@media (max-width: 470px) {
+  .bike-images {
+    grid-template-columns: 1fr;
+  }
+
+  .content-bg {
+    max-width: 340px;
+  }
+  .beneficios {
+    grid-template-columns: 1fr;
+  }
+
+  .campo-compra {
+    flex-wrap: wrap;
+  }
+  .dados {
+    display: flex;
+    gap: 8px;
+  }
+
+  .tipos-bg .intro-title {
+    font-size: 4.4rem;
+    line-height: 5.2rem;
+  }
+}
