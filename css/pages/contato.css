@@ -143,6 +143,10 @@ input:focus-visible {
   outline: 0;
 }
 
+form .btn {
+  border: none;
+}
+
 .locais-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
