@@ -5,7 +5,7 @@
 .seguro-page .seguro-lista li::before {
   position: absolute;
   left: -20px;
-  content: url('../../img/icones/seta-abrir.svg');
+  content: url('../../img/icones/lista.svg');
 }
 
 .vatagens-bg {
