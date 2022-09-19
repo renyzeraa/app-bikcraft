@@ -42,6 +42,10 @@ header {
   transition: 0.4s;
   width: 100%;
 }
+.header-menu li a.ativo:after {
+  transition: 3s;
+  width: 100%;
+}
 
 @media (max-width: 600px) {
   .header-menu {
