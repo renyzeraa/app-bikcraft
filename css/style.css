@@ -19,6 +19,7 @@
 @import './pages/contato.css';
 @import './pages/bicicletas.css';
 @import './pages/seguros.css';
+@import './pages/orcamento.css';
 
 /* bicicletas */
 @import './bicicletas/bicicletas.css';

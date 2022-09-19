@@ -21,3 +21,8 @@ img {
 main {
   background-color: var(--w);
 }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
