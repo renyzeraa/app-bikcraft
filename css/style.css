@@ -5,6 +5,7 @@
 /* utilidades */
 @import './utils/components.css';
 @import './utils/tipografia.css';
+@import './utils/animacao.css';
 
 /* homepage */
 @import './home/introducao.css';
