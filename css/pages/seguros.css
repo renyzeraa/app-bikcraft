@@ -5,7 +5,7 @@
 .seguro-page .seguro-lista li::before {
   position: absolute;
   left: -20px;
-  content: url('../../img/icones/lista.svg');
+  content: url('../../img/icones/seta-abrir.svg');
 }
 
 .vatagens-bg {
@@ -39,68 +39,79 @@
   line-height: 24px;
 }
 
-.perguntas-bg {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-}
-.perguntas-bg dl:nth-child(even) {
-  background-color: var(--c1);
+.perguntas {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.perguntas-bg dl {
-  padding: 2rem;
-  border-radius: 5px;
+.perguntas h1 {
+  margin-bottom: 60px;
 }
 
-.perguntas-bg dt {
-  color: var(--c11);
-  font-family: var(--ff-poppins);
-  position: relative;
+.perguntas div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--c3);
+}
+
+.perguntas button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+
+  font-family: 'Poppins';
   font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  padding-left: 2rem;
-  margin-bottom: 1.2rem;
+  font-size: 18px;
+  line-height: 24px;
+  color: #111111;
 }
 
-.perguntas-bg dt::before {
+.perguntas button::before {
   content: '';
-  position: absolute;
+  display: inline-block;
   width: 12px;
   height: 8px;
-  left: 0px;
-  top: 8px;
-  background: #ffbb00;
+  background-color: var(--p1);
 }
 
-.perguntas-bg dt::after {
-  content: url('../../img/icones/seta-abrir.svg');
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  transform: rotate(0deg);
-  cursor: pointer;
+.perguntas button::after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url('../../img/icones/seta-abrir.svg');
   transition: transform 0.5s;
 }
 
-.perguntas-bg dt.show::after {
+.perguntas .ativa button::after {
   transform: rotate(180deg);
 }
 
-.perguntas-bg dt.show:hover:after {
-  transform: rotate(0deg);
-}
-
-.perguntas-bg dt:hover:after {
-  transform: rotate(180deg);
-}
-
-.perguntas-bg dd {
-  padding-left: 2rem;
-  font-family: var(--ff-roboto);
+.perguntas dd {
+  display: none;
+  font-family: 'Roboto';
   font-size: 1.8rem;
   line-height: 2.4rem;
-  max-width: 700px;
+  color: #404040;
+}
+
+.perguntas dd.ativa {
+  display: block;
+}
+
+.perguntas dd {
+  padding-left: 2rem;
+  padding-top: 1.6rem;
+  max-width: 80ch;
 }
 
 @media (max-width: 600px) {
@@ -109,7 +120,7 @@
     line-height: 4.2rem;
   }
 
-  .perguntas-bg {
+  .perguntas {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
