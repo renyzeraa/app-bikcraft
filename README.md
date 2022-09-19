@@ -2,7 +2,7 @@
 
 ### Curso Origamid - HTML5 e CSS3
 
-Faaala dev!, seja bem-vindo, e este projeto é aplicação de um site de vendas de bikes fictício, onde apliquei conhecimentos avançados de HTML5 E CSS3, sem utilizar qualquer outra linguagem, site todo responsivo.
+Faaala dev!, seja bem-vindo. Este projeto é aplicação de um site de vendas de bikes fictício, onde apliquei conhecimentos avançados de HTML5 E CSS3, sem utilizar qualquer outra linguagem, site todo responsivo.
 
 ![screenshot1](./img/screenshots/Screenshot_1.png)
 ![screenshot2](./img/screenshots/Screenshot_2.png)
@@ -12,7 +12,7 @@ Faaala dev!, seja bem-vindo, e este projeto é aplicação de um site de vendas 
 ![screenshot6](./img/screenshots/Screenshot_6.png)
 ![screenshot7](./img/screenshots/Screenshot_7.png)
 
-## <a href="https://renyzeraa.github.io/app-bikcraft/" > EM PRODUÇÃO . . . </a>
+## <a href="https://renyzeraa.github.io/app-bikcraft/" > Deploy 🚀 </a>
 
 ### Para fazer este projeto usei 👇
 
